@@ -57,6 +57,14 @@ const Meta = (props: IMetaProps) => {
           url: props.canonical,
           locale: AppConfig.locale,
           site_name: AppConfig.site_name,
+          images: [
+            {
+              url: 'https://landing.trustlessenterprise.com/favicon.ico',
+              width: 180,
+              height: 180,
+              alt: 'Bitcoin is the Orange Pill.',
+            },
+          ],
         }}
       />
     </>
