@@ -13,12 +13,12 @@ const Hero = () => (
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="https://www.btcstudy.org/">
-            <a>BTC Study</a>
+            <a>BTC</a>
           </Link>
         </li>
         <li>
           <Link href="https://mirror.xyz/williamdao.eth">
-            <a>William DAO</a>
+            <a>DAO</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -29,7 +29,7 @@ const Hero = () => (
         title={
           <>
             {'The only way for\n'}
-            <span className="text-primary-500">Bitcoin Holder</span>
+            <span className="text-orange-500">Bitcoin Holder</span>
           </>
         }
         description="The safe way to hold bitcoin in decades."
