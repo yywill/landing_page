@@ -8,7 +8,7 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-orange-50">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
@@ -28,11 +28,11 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The only way for\n'}
-            <span className="text-orange-500">Bitcoin Holder</span>
+            {'The Answer to\n'}
+            <span className="text-orange-500">Preserve Your Wealth</span>
           </>
         }
-        description="The safe way to hold bitcoin in decades."
+        description="Protect Your Wealth with Trustless Enterprise: Your Solution for an Unstable World"
         button={
           <Link href="https://william.yang.at.trustlessenterprise.com/">
             <a>
