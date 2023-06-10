@@ -24,8 +24,11 @@ const Logo = (props: ILogoProps) => {
         strokeLinejoin="round"
       >
         <path d="M0 0h24v24H0z" stroke="none" />
-        <rect x="3" y="10" width="18" height="4" rx="2" />
-        <rect x="3" y="16" width="18" height="4" rx="2" />
+        <rect x="2" y="8" width="9" height="4" rx="2" fill="black" />
+        <rect x="8" y="8" width="9" height="4" rx="2" fill="orange" />
+
+        <rect x="6" y="15" width="13" height="4" rx="2" fill="black" />
+        <rect x="12" y="15" width="10" height="4" rx="2" fill="orange" />
       </svg>
 
       {AppConfig.site_name}
