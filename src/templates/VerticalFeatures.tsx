@@ -12,27 +12,39 @@ const VerticalFeatures = () => (
   >
     <VerticalFeatureRow
       title="Not your key, Not your Coins."
-      description="《华尔街日报》的说法实在令人匪夷所思。FTX的倒闭明明是由于创始人内幕交易和挪用客户资金造成的,却被 Elite media淡化为“理想的破灭”,这更像是一种为贪婪行为开脱的借口。
-与此同时,“Not your key, not your coins” 的理念则显得尤为重要。只有当我们真正掌握自己的私钥,才能确保数字资产的安全。如果将资金交给第三方托管,一旦出现骗局或破产,我们的财富便会灰飞烟灭——这正是FTX案例向我们展示的现实。
-当“理想”仅仅是掩人耳目的幌子,当第三方机构无法真正为我们的利益负责,我们就必须自己守护财富,这是在这个数字时代的基本生存法则。正如《华尔街日报》的报道所体现的,在这场权与利的博弈中,普通人的利益从来都不会是优先考量的因素。
-“Not your key, not your coins” 不只是一句口号,它是我们维护财产的唯一方法。
-只有通过去中心化的投资与存储,我们才能切实掌控自己的资产,避免再次成为这场权力游戏的牺牲品。这也是区块链技术诞生的初衷——给予每个人真正的财富自主权。如果我们学不会历史的教训,历史只会不断重演。"
+      description="The claims made by The Wall Street Journal are truly bewildering. The collapse of FTX was clearly due to insider trading and misappropriation of customer funds by its founder, yet it was downplayed by the elite media as the 'shattering of ideals,' which seems more like an excuse to absolve greed-driven behavior. Meanwhile, the concept of 'Not your key, not your coins' becomes particularly important. Only when we truly control our own private keys can we ensure the security of digital assets. If we entrust our funds to third-party custody, our wealth can vanish into thin air in the event of fraud or bankruptcy—this is the reality shown to us by the FTX case.
+
+      When 'ideals' are merely a smokescreen, and when third-party institutions cannot truly be accountable for our interests, we must safeguard our wealth ourselves; this is a fundamental survival rule in this digital age. 
+      As reflected in The Wall Street Journal's report, in this game of power and profit, the interests of ordinary people are never the primary concern. 'Not your key, not your coins' is not just a slogan; it is the only way to protect our property. Only through decentralized investment and storage can we effectively control our assets and avoid becoming victims of this power game once again. 
+      This is also the original intention behind the birth of blockchain technology—to give everyone true financial autonomy. If we fail to learn from the lessons of history, history will only continue to repeat itself."
       image="/assets/images/ftx_report.jpg"
       imageAlt="FTX"
     />
     <VerticalFeatureRow
       title="Do not trust, verify."
-      description="在Trustless Enterprise,我们坚信信任应建立在验证的基础上。这正是“不相信,要验证”的原则,也是比特币所依托的区块链技术的基石。这一原则强调在金融交易中去中心化、透明度和自我验证的重要性。通过分布式账本和加密协议验证交易并确保其准确性,我们无需依赖可能与我们利益相悖的中间机构。采用这种方法,我们可以在验证的基础上建立信任,创建一个抵制审查、欺诈和腐败的金融系统。
-《拜占庭将军问题》描述的就是这样一种Scenario。在这场博弈中,拜占庭将军通过给雇佣军随机的命令来验证彼此的忠诚度,而非进行空口承诺。只有当大部分军队执行相同的命令时,这些命令才会生效。这确保没有任何一个将军可以操控整个军队。这就是一种经典的基于验证而非信任来制衡权力的方案。
-所以,如果您想要确保透明度、安全性和金融自由,请记住验证而不要信任。正如《拜占庭将军问题》所示,权力应建立在被验证和制衡之上,而非单纯的信任。只有通过区块链等技术建立自我验证和制衡机制,我们才能构建一个真正的“无信任”企业,抵御权力的过度集中与滥用。"
+      description="
+      At Trustless Enterprise, we firmly believe that trust should be built on verification. This is the principle of 'don't trust, verify' and the cornerstone of blockchain technology upon which Bitcoin relies. This principle emphasizes the importance of decentralization, transparency, and self-verification in financial transactions. 
+      By using distributed ledgers and cryptographic protocols to verify transactions and ensure their accuracy, we can avoid relying on intermediaries that may conflict with our interests. Through this approach, we can establish trust based on verification and create a financial system resistant to censorship, fraud, and corruption. 
+      
+      The Byzantine Generals' Problem describes such a scenario. In this game, Byzantine generals verify each other's loyalty by giving random commands to their hired soldiers instead of making empty promises. 
+      Only when the majority of the army follows the same command, the commands become effective. This ensures that no single general can manipulate the entire army. 
+      It is a classic solution based on verification, not trust, to balance power. So, if you want to ensure transparency, security, and financial freedom, remember to verify rather than trust. 
+      As the Byzantine Generals' Problem illustrates, power should be established on verification and checks, not solely on trust. Only by establishing self-verification and balancing mechanisms through technologies like blockchain can we build a true 'trustless' enterprise that resists excessive concentration and abuse of power.
+      
+      "
       image="/assets/images/bz.jpg"
       imageAlt="All Coins are ShitCoin except Bitcoin."
       reverse
     />
     <VerticalFeatureRow
-      title="世界第一个央行数字货币(CBDC) -- Gosbank"
+      title="World Fist Central Bank Digital Currency(CBDC) -- Gosbank"
       description="
-      Gosbank（俄语：Госбанк，Государственный банк СССР，Gosudarstvenny银行SSSR-苏联国家银行）是苏联的中央银行，也是1922年至1991年全国唯一的银行。Gosbank是苏联三个经济当局之一，另外两个是“Gosplan”（国家计划委员会）和“Gossnab”（国家材料技术供应委员会）。Gosbank与苏联财政部密切合作，编制国家预算。"
+      Gosbank (Russian: Госбанк, Государственный банк СССР, Gosudarstvenny bank SSSR - State Bank of the USSR) was the central bank of the Soviet Union and the only nationwide bank from 1922 to 1991. 
+      
+      Gosbank was one of the three economic authorities in the Soviet Union, alongside 'Gosplan' (State Planning Committee) and 'Gossnab' (State Materials and Technical Supply Committee). 
+      
+      Gosbank worked closely with the Soviet Ministry of Finance in formulating the national budget.
+      "
       image="/assets/images/Coat_of_arms_of_the_Soviet_Union_(1956–1991).svg"
       imageAlt="Coat_of_arms_of_the_Soviet_Union"
     />
@@ -40,8 +52,10 @@ const VerticalFeatures = () => (
     <VerticalFeatureRow
       title="All Coins are ShitCoin, except Bitcoin."
       description="
-      实际上,我们不需要设想CBDC,因为我们早已经在历史上见识过了——苏联的Gosbank便是最成功的CBDC实践案例。然而,正如我们所知,它最终是一场灾难。
-Gosbank拥有对苏联金融和经济的绝对控制权,它控制货币发行、资金流通、利率政策和账户管理等各个环节。这与CBDC赋予央行的权力如出一辙。并且,Gosbank已经将这种权力发挥到了极致——严格限制对商业银行和市场的管制,利率和汇率的扭曲,对公民财产的全面监控等,最终导致经济混乱和社会动荡。"
+      In fact, we don't need to imagine CBDC because we have witnessed it in history—the Soviet Union's Gosbank was the most successful CBDC implementation case. However, as we know, it ultimately turned out to be a disaster.
+
+Gosbank had absolute control over the Soviet Union's financial and economic system, governing aspects such as currency issuance, fund circulation, interest rate policies, and account management. This aligns with the powers granted to central banks with CBDC. 
+And Gosbank took full advantage of this power—imposing strict regulations on commercial banks and the market, distorting interest rates and exchange rates, conducting comprehensive surveillance of citizens' assets, ultimately leading to economic turmoil and social upheaval."
       image="/assets/images/bitcoin.png"
       imageAlt="https://www.researchgate.net/publication/347802389_Blockchain-Based_Payment_Channel_Networks_Challenges_and_Recent_Advances"
       reverse
