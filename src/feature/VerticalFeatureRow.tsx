@@ -1,3 +1,5 @@
+import { CSSProperties } from 'react';
+
 import className from 'classnames';
 import { useRouter } from 'next/router';
 
@@ -19,6 +21,10 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
       'flex-row-reverse': props.reverse,
     }
   );
+  // 定义内联样式对象
+  const preLineStyle: CSSProperties = {
+    whiteSpace: 'pre-line',
+  };
 
   const router = useRouter();
 
@@ -26,7 +32,7 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
     <div className={verticalFeatureClass}>
       <div className="w-full sm:w-1/2 text-center sm:px-6">
         <h3 className="text-3xl text-gray-900 font-semibold">{props.title}</h3>
-        <div className="pre-line mt-2 text-base leading-6">
+        <div style={preLineStyle} className="mt-2 text-base leading-6">
           {props.description}
         </div>
       </div>
