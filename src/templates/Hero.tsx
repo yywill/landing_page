@@ -13,12 +13,12 @@ const Hero = () => (
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="https://www.btcstudy.org/">
-            <a>BTC</a>
+            <a>比特币知识</a>
           </Link>
         </li>
         <li>
           <Link href="https://mirror.xyz/williamdao.eth">
-            <a>DAO</a>
+            <a>保持联系</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -28,15 +28,17 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The Answer to\n'}
-            <span className="text-orange-500">Preserve Your Wealth</span>
+            {'比特币储蓄\n'}
+            <span className="text-orange-500">
+              大萧条时代的资产保值、支付之道
+            </span>
           </>
         }
         description="Protect Your Wealth with Trustless Enterprise: Your Solution for an Unstable World"
         button={
           <Link href="https://william.yang.at.trustlessenterprise.com/">
             <a>
-              <Button xl>Consult For Details</Button>
+              <Button xl>详细了解</Button>
             </a>
           </Link>
         }
